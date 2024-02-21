@@ -1,4 +1,5 @@
-﻿internal class ImageConvertor
+﻿namespace FacadePattern.Single;
+internal class ImageConvertor
 {
     public string ConvertByteToText(byte[] input)
     {

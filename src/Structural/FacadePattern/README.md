@@ -22,6 +22,18 @@ There are various types of Facade patterns, such as:
  * Nested Facades: Multiple layers of Facades that work together to provide a simplified interface to a complex system.
 This repository will cover various examples of each of these types of Facade patterns.
 
+## Advantages of the Facade pattern:
+ * Simplifies the interface of a complex subsystem, making it easier to use for clients.
+ * Reduces coupling between the client code and the subsystem, as the client only needs to interact with the Facade instead of the subsystem directly.
+ * Encapsulates the complexity of the subsystem behind a simpler interface, making it easier to maintain and modify.
+
+## Disadvantages of the Facade pattern:
+ * May introduce performance overhead, as the Facade needs to coordinate with the subsystem and perform additional processing.
+ * May lead to the creation of a "God class" that knows too much about the subsystem and violates the principle of separation of concerns.
+ * May hide important details and nuances of the subsystem that are important for advanced usage scenarios.
+
+Overall, the Facade pattern is a powerful tool for simplifying complex systems and making them more manageable for clients. However, it should be used judiciously, and its limitations and trade-offs should be carefully considered before implementing it in a given system
+
 ## How to Use this Repository
 Each type of Facade pattern is described in a separate directory. Inside each directory, you will find an example of how the pattern can be used in practice, along with a detailed explanation of its benefits and limitations.
 You can clone this repository to your local machine and explore the different Facade patterns. You can also use the examples as a starting point for your own projects, or to gain a better understanding of how to apply Facade patterns in practice

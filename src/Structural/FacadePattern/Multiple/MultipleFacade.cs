@@ -1,9 +1,10 @@
-﻿public class Facade
+﻿namespace FacadePattern.Multiple;
+public class MultipleFacade
 {
     private FileManager _fileMnager;
     private ImageConvertor _imageConvertor;
 
-    public Facade()
+    public MultipleFacade()
     {
         _fileMnager = new FileManager();
         _imageConvertor = new ImageConvertor();
