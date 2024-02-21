@@ -1,4 +1,5 @@
-﻿internal class FileManager
+﻿namespace FacadePattern.Single;
+internal class FileManager
 {
     public byte[] ReadFile(string path)
     {
